@@ -86,6 +86,7 @@ public class T05_KahveMakinesi {
 
 
                  */
+        System.out.println("hello word" );
 
 
 
