@@ -1,8 +1,10 @@
 package tasks;
 
+import java.util.Scanner;
+
 public class T05_KahveMakinesi {
 
-    public static void main(String[] args) {
+    public static <KahveMakinesi> void main(String[] args) {
 
 
         /*
@@ -86,9 +88,17 @@ public class T05_KahveMakinesi {
 
 
                  */
-        System.out.println("hello word" );
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Seker eklemek ister misiziniz (Evet veya Hayir olarak cevaplayiniz)");
+        String seker = scan.nextLine().toUpperCase();
+        if (seker.equalsIgnoreCase("EVET")) {
+            System.out.println("Kac seker ekemek istesini)");
+            int sekerSayisi = scan.nextInt();
+            System.out.println("Seker ekleniyor");
+        }
+        if (seker.equalsIgnoreCase("HAYIR")) {
 
 
-
+        }
     }
 }
