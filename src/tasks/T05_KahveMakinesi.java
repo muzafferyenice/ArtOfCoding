@@ -1,5 +1,7 @@
 package tasks;
 
+import java.util.Scanner;
+
 public class T05_KahveMakinesi {
 
     public static void main(String[] args) {
@@ -54,8 +56,13 @@ public class T05_KahveMakinesi {
   String boyut oluşturun...
 
                                                    todo 4.Koşul Bölümü
-        boyut ayarlanacak
-        eğer String boyut Büyük boy' a eşitse =  Kahveniz büyük boy hazırlanıyor. (Büyük boy kısmını String boyut'u kullanarak yazalım= "Kahveniz" + boyut + "hazırlanıyor.")
+        */
+
+
+
+        /*boyut ayarlanacak
+        eğer String boyut Büyük boy' a eşitse =  Kahveniz büyük boy hazırlanıyor.
+        (Büyük boy kısmını String boyut'u kullanarak yazalım= "Kahveniz" + boyut + "hazırlanıyor.")
 
         Eğer String boyut  Orta Boy'a eşitse = Kahveniz orta boy hazırlanıyor.. ("Kahveniz" + boyut + "hazırlanıyor.)
 
@@ -93,5 +100,18 @@ public class T05_KahveMakinesi {
         System.out.println("");
 
 
+    }
+    // 4.AŞAMA ---- > Kahve boyutunun Ayarlanması
+
+    public static void sizeOfCoffie() {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Kahveniz Hangi boyutta olsun? (büyük boy , orta boy , küçük boy  olarak giriniz.) ");
+        String boyut = scan.nextLine().trim();
+        if (boyut.equalsIgnoreCase("Büyük boy")||boyut.equalsIgnoreCase("orta boy")||boyut.equalsIgnoreCase("küçük boy")) {
+            System.out.println("Kahveniz " + boyut + " hazırlanıyor.");
+        } else {
+            System.out.println("Boyut bilgisi yanlış, yeniden deneyiniz ..");
+            sizeOfCoffie();
+        }
     }
 }
