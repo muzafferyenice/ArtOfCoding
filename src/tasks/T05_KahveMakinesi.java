@@ -5,7 +5,7 @@ public class T05_KahveMakinesi {
     public static void main(String[] args) {
 
 
-        /*
+        /* selammm
 
   1. Basit bir Kahve makinesi oluşturun.    3 çeşit kahvemiz olsun.
   2. Sistem şu soruyu sorsun: "Hangi Kahveyi istersiniz?"
