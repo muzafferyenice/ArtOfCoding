@@ -54,6 +54,7 @@ public class T05_KahveMakinesi {
   String boyut oluşturun...
 
                                                    todo 4.Koşul Bölümü
+        boyut ayarlanacak
         eğer String boyut Büyük boy' a eşitse =  Kahveniz büyük boy hazırlanıyor. (Büyük boy kısmını String boyut'u kullanarak yazalım= "Kahveniz" + boyut + "hazırlanıyor.")
 
         Eğer String boyut  Orta Boy'a eşitse = Kahveniz orta boy hazırlanıyor.. ("Kahveniz" + boyut + "hazırlanıyor.)
