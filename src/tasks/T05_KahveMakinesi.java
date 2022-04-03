@@ -82,12 +82,12 @@ public class T05_KahveMakinesi {
 
        HERKESE KOLAY GELSİN !! :)
 
-
+            son degisim
 
 
                  */
         System.out.println("hello word" );
-
+        System.out.println("");
 
 
     }
