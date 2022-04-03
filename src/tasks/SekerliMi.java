@@ -14,17 +14,10 @@ public class SekerliMi {
         String seker = scan.nextLine();
         Seker aa=new Seker(seker);
 
-        if (seker.equalsIgnoreCase("EVET")) {
-            System.out.println("Kac seker ekemek istesini)");
-
-            int sekerSayisi = scan.nextInt();
-            System.out.println(sekerSayisi+" Seker ekleniyor");
-        }
-        if (seker.equalsIgnoreCase("HAYIR")) {
         }
     }
 
 
-    }
+
 
 
