@@ -33,7 +33,7 @@ public class countE {
             b:1
         output 1 olmalı
         */
-
+/**jfj*/
 
     //hint: .charAt, length(), for, index, counter,
 
