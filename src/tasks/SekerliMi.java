@@ -2,15 +2,8 @@ package tasks;
 
 import java.util.Scanner;
 
-<<<<<<< HEAD
-// web üzerinden güncelleme
-
-public class SekerliMi {
-    public static void main(String[] args) {
-=======
 public class SekerliMi {
     ublic static void main(String[] args) {
->>>>>>> f6959a1 (SekerliMi)
 
         SekerliMi sekerMi = new SekerliMi();{
 
@@ -28,7 +21,4 @@ public class SekerliMi {
         }
     }
 }
-<<<<<<< HEAD
-=======
 }
->>>>>>> f6959a1 (SekerliMi)
