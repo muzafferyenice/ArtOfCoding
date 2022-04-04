@@ -3,7 +3,7 @@ package tasks;
 import java.util.Scanner;
 
 public class SekerliMi {
-    ublic static void main(String[] args) {
+    public static void main(String[] args) {
 
         SekerliMi sekerMi = new SekerliMi();{
 
@@ -21,4 +21,4 @@ public class SekerliMi {
         }
     }
 }
-}
+
