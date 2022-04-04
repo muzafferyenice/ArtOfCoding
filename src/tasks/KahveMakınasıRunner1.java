@@ -7,7 +7,7 @@ public class KahveMakınasıRunner1 {
         KahveMakınası robot=new KahveMakınası();
 
 
-        System.out.println();
+        System.out.println("aayar");
 
     }
 }
