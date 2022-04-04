@@ -2,6 +2,8 @@ package tasks;
 
 import java.util.Scanner;
 
+// web üzerinden güncelleme
+
 public class SekerliMi {
     public static void main(String[] args) {
 
