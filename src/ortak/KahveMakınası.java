@@ -19,7 +19,7 @@ String hangiKahve;
             System.out.println("Filtre kahve hazırlanıyor.");
         } else System.out.println("Hatalı tuşlama yaptınız");
 
-
+        KahveMakınası robot=new KahveMakınası();
     }
     }
 
