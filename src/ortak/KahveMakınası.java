@@ -1,7 +1,9 @@
 package ortak;
 
+import java.util.Scanner;
+
 public class KahveMakınası {
-String hangiKahve;
+    String hangiKahve;
 
 
     public KahveMakınası() {
@@ -9,21 +11,28 @@ String hangiKahve;
         String kCesidi2 = "filtrekahve";
         String kCesidi3 = "espresso";
 
-        if (kCesidi1.equals("turkKahvesi")) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("kahve Makınesı \n" + "turkKahvesi  \nfiltre kahve  \nespresso  \n");
+
+        System.out.println("hangi kahveyi istersiniz");
+        String kahveCesidi1=scanner.nextLine();
+
+        if ( kahveCesidi1.equalsIgnoreCase("turkKahvesi")) {
             System.out.println(" Türk kahvesi hazırlanıyor.");
 
 
-        } else if (kCesidi2.equals("filtre_kahve")) {
+        } else if ( kahveCesidi1.equalsIgnoreCase("filtre_kahve")) {
             System.out.println("Filtre kahve hazırlanıyor");
-        } else if (kCesidi3.equals("espresso")) {
+        } else if ( kahveCesidi1.equalsIgnoreCase("espresso")) {
             System.out.println("Filtre kahve hazırlanıyor.");
-        } else System.out.println("Hatalı tuşlama yaptınız");
+        } else {
+            System.out.println("Hatalı tuşlama yaptınız");
 
-        KahveMakınası robot=new KahveMakınası();
+            KahveMakınası robot = new KahveMakınası();
+        }
     }
-    }
 
-
+}
 
 
 
