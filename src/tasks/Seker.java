@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Seker {
 
-    static  Scanner scan=new Scanner(System.in);
+    static Scanner scan = new Scanner(System.in);
 
     public Seker(String seker) {
         if (seker.equalsIgnoreCase("EVET")) {
@@ -13,14 +13,10 @@ public class Seker {
             int sekerSayisi = scan.nextInt();
 
             if (sekerSayisi > 0) {
+                System.out.println(sekerSayisi + " seker ekleniyor");
 
-
-            }else {
-
-
-                Seker aa=new Seker(seker);
-
-
+            } else {
+                Seker aa = new Seker(seker);
 
             }
         }
