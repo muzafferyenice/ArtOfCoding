@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class Seker {
 
+
+    //v12
     static Scanner scan = new Scanner(System.in);
 
     public Seker(String seker) {

@@ -5,8 +5,7 @@ import java.util.Scanner;
 public class SekerliMi {
     public static void main(String[] args) {
 
-
-
+        //v12
 
         Scanner scan = new Scanner(System.in);
 
