@@ -19,7 +19,7 @@ public class Seker {
 
             } else {
                 Seker aa = new Seker(seker);
-
+////
             }
         }
         if (seker.equalsIgnoreCase("HAYIR")) {
