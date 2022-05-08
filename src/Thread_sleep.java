@@ -14,3 +14,14 @@ public class Thread_sleep {
         System.out.println("sss");
     }
 }
+/*
+t.k.s. muhammed bey pazartesi repo ac film tahmin projesi push       /collaborate
+t.k.s. mirac bey sali repo ac banka  projesi push                   /collaborate
+t.k.s. yahya bey carsamba repo ac ucus  projesi push               /collaborate
+t.k.s. mustafa ycakar bey persembe repo ac market  projesi push   /collaborate
+t.k.s. yusuf atesmen bey cuma repo ac turist projeler  push      /collaborate
+t.k.s. tuba hanim cmtesi repo ac okulyonetim  projesi push      /collaborate
+t.k.s. mustafa budak pazar repo ac depo  projesi push          /collaborate
+
+
+ */
